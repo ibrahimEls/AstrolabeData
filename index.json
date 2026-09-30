@@ -37,6 +37,36 @@
     "Astrolabe-Small",
     "Astrolabe-Small-ft-TNG50"
    ]
+  },
+  {
+   "name": "DAOstrong-2M-10Mpc",
+   "title": "DAO, k_peak = 18 h/Mpc, 10 Mpc/h",
+   "box_kpc_h": 10000.0,
+   "evolution": true,
+   "models": [
+    "Astrolabe-Small",
+    "Astrolabe-Medium"
+   ]
+  },
+  {
+   "name": "DAOstrong-2M-1Mpc",
+   "title": "DAO, k_peak = 32 h/Mpc, 1 Mpc/h",
+   "box_kpc_h": 1000.0,
+   "evolution": true,
+   "models": [
+    "Astrolabe-Small",
+    "Astrolabe-Medium"
+   ]
+  },
+  {
+   "name": "DAOweak-2M-10Mpc",
+   "title": "DAO, k_peak = 31 h/Mpc, 10 Mpc/h",
+   "box_kpc_h": 10000.0,
+   "evolution": true,
+   "models": [
+    "Astrolabe-Small",
+    "Astrolabe-Medium"
+   ]
   }
  ]
 }

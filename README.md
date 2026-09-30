@@ -18,10 +18,12 @@ export.
     <case>/<field>/halo.u16, halo_h.u8 every particle within 2.5 R200m of the most massive halo,
                                        positions relative to the halo centre
 
-Fields: `truth` (the N-body simulation) and the Astrolabe fields — `small`
-and `medium` for the 2M-particle boxes; `small_pre` (the 2M-trained model
-applied as is) and `small_ft` (fine-tuned on TNG50) for the TNG runs, which
-are z = 0 only. Particles are matched by index across fields and keyframes,
+Cases: the CDM boxes shown in the movies (10 and 1 Mpc/h), three DAO boxes
+(strong at 10 and 1 Mpc/h, weak at 10 Mpc/h), and the two TNG runs, which are
+z = 0 only. Fields: `truth` (the N-body simulation) and the Astrolabe fields:
+`small` and `medium` for the 2M-particle boxes (`medium` where it was run);
+`small_pre` (the 2M-trained model applied as is) and `small_ft` (fine-tuned on
+TNG50) for the TNG runs. Particles are matched by index across fields and keyframes,
 which is what lets the figure interpolate between keyframes and draw both
 sides of its comparison from one camera.
 
