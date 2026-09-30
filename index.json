@@ -1,0 +1,42 @@
+{
+ "cases": [
+  {
+   "name": "CDM-2M-10Mpc",
+   "title": "CDM, 10 Mpc/h",
+   "box_kpc_h": 10000.0,
+   "evolution": true,
+   "models": [
+    "Astrolabe-Small"
+   ]
+  },
+  {
+   "name": "CDM-2M-1Mpc",
+   "title": "CDM, 1 Mpc/h",
+   "box_kpc_h": 1000.0,
+   "evolution": true,
+   "models": [
+    "Astrolabe-Small"
+   ]
+  },
+  {
+   "name": "TNG50-3-Dark",
+   "title": "TNG50-3-Dark",
+   "box_kpc_h": 35000.0,
+   "evolution": false,
+   "models": [
+    "Astrolabe-Small",
+    "Astrolabe-Small-ft-TNG50"
+   ]
+  },
+  {
+   "name": "TNG100-3-Dark",
+   "title": "TNG100-3-Dark",
+   "box_kpc_h": 75000.0,
+   "evolution": false,
+   "models": [
+    "Astrolabe-Small",
+    "Astrolabe-Small-ft-TNG50"
+   ]
+  }
+ ]
+}
